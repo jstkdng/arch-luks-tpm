@@ -7,6 +7,7 @@ build() {
 
     add_binary "tpm2_unseal"
     add_binary "/usr/lib/libtss2-tcti-device.so"
+    add_file "/etc/tpm.d/cryptroot.handle"
 
     add_runscript
 }
